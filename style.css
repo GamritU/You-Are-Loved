@@ -1,0 +1,31 @@
+div {
+    background: linear-gradient(45deg, #cc730c, #ff0000,#fbff00);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+ }
+
+ @keyframes gradientAnimation{
+    0% {background-position: 0% 50%;} 
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+ }
+ body {
+    background: linear-gradient(45deg, #000000, #0000FF,#4646af);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+ }
+
+ @keyframes gradientAnimation{
+    0% {background-position: 0% 50%;} 
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+ }
+
+ h1 {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ div {
+    border-radius: 12px;
+ }
